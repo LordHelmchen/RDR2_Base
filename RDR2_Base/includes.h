@@ -14,7 +14,6 @@
 #include "Features.h"
 #include "menu.h"
 #pragma comment(lib, "MinHook\\libMinHook.x64.lib")
-#pragma comment(lib, "libMinHook.x64.lib")
 #pragma comment(lib, "secur32.lib")
 #pragma comment(lib, "winmm.lib")
 #pragma comment(lib, "dmoguids.lib")
