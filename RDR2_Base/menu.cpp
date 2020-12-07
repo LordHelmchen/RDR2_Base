@@ -43,7 +43,7 @@ namespace menu
 				if (UI::Option("Teleport to player"))
 				{
 					Vector3 pos = ENTITY::GET_ENTITY_COORDS(PLAYER::GET_PLAYER_PED(variables::selectedPlayer), true, true);
-					ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), pos.x, pos.y, pos.z, true, true, true, false);
+					features::teleport(pos);
 				}
 			}
 		}

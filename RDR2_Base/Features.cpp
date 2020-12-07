@@ -7,4 +7,9 @@ namespace features
 	{
 
 	}
+
+	void teleport(Vector3 pos)
+	{
+		ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), pos.x, pos.y, pos.z, true, true, true, false);
+	}
 }
